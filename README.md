@@ -2,7 +2,7 @@
 My new project - order managment web app.
 You can find desktop app here: https://github.com/vytautasmatukynas/Order-Managment-Desktop-App-Demo
 
-Fow now this app is read-only - under construction. There will be add/update/remove functions, login window, different accounts with diffrent privileges and etc.
+Fow now this app is read-only - under construction. There will be add/update/remove functions, login window, different accounts with different privileges and etc.
  
 
 It gets data from same postgreSQL server as desktop app:
