@@ -1,0 +1,80 @@
+/* set navbar fixed and expand in bottom.
+Also when it collapses to hamburger it moves parallel to horizontal scrollbar */
+.navbar {
+    position: fixed;
+    width:100%;
+    z-index: 2;
+  }
+/* Center table widget vertically and horizontally, fit to screen and etc. */
+/* top margin right margin bottom margin left margin */
+.child {
+    position: absolute;
+    top: 5%;
+    bottom: 5%;
+    left: 5%;
+    right: 5%;
+    margin: 50px 0px 50px 0;
+    border: 1px solid gray;
+}
+
+.table {
+    display: inline-block;
+    overflow: auto;
+    width: 100%;
+    height: 100%;
+    white-space: nowrap;
+    }
+
+/* set header to stick in one place and some styling */
+thead th {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    text-align: center;
+}
+
+/* expand comments column to max and some min-width */
+.COMMENTS-header-name {
+    width: 100%;
+    min-width: 400px;
+}
+
+/* align table number column, to be in center */
+tbody th{
+    vertical-align: middle;
+    text-align: center;
+}
+
+/* all columns alighment */
+tbody td{
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+/* comments column aligment */
+.comments-row {
+    white-space: pre-wrap;
+    text-align: left;
+}
+
+/* change color on hover. !important overwrites all previuos styling for tag */
+tbody tr:hover{
+    color: white !important;
+    background-color: #394867 !important;
+}
+
+/* set footer fixed and expand in bottom. Adds gap between footer and main window. */
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 40px;
+    z-index: 2;
+}
+
