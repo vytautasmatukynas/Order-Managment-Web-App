@@ -1,0 +1,48 @@
+<!-- TABLE -->
+<div class="container-fluid">
+    <div class="child">
+        <!-- Bootstrap class 'table table-striped' adds stripes to table rows.
+        'table-bordered border-white' adds borders to table-->
+        <table class="table table-bordered border-dark-subtle">
+
+            <thead class="table-dark ">
+            <tr>
+                <!-- Create headers for table. -->
+                <th class="column-headers" scope="col"></th>
+
+                {% for header_name in head %}
+                <th scope="col" class="headers {{ header_name }}-header-name">{{ header_name }}</th>
+                {% endfor %}
+                <!-- ##################### -->
+            </tr>
+            </thead>
+
+            <!-- Create table rows with data from SQL by looping through data list -->
+            <tbody>
+            <!-- fetch data -->
+            {% for rows_data in data %}
+            <tr>
+                <!-- Adds row number, starts from 1 -->
+                <th scope="row">{{ rows_data[0] + 1 }}</th>
+
+                <!-- Adds row data, except 'id' row -->
+                {% for row in rows_data[1][1:7] %}
+                <td> {{ row }}</td>
+                {% endfor %}
+                <!-- add comments row-->
+                {% for row in rows_data[1][7:8] %}
+                <td class="comments-row"> {{ row }}</td>
+                {% endfor %}
+                <!-- Adds updated row -->
+                {% for row in rows_data[1][8:9] %}
+                <td> {{ row }}</td>
+                {% endfor %}
+
+            </tr>
+            {% endfor %}
+            <!-- ##################### -->
+            </tbody>
+
+        </table>
+    </div>
+</div>
