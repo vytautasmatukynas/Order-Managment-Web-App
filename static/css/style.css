@@ -1,10 +1,38 @@
 /* set navbar fixed and expand in bottom.
-Also when it collapses to hamburger it moves parallel to horizontal scrollbar */
+Also when it collapses to hamburger it moves parallel to horizontal scrollbar.
+Adds some style to navbar and search entry */
 .navbar {
-    position: fixed;
-    width:100%;
+    position: relative;
+    text-align: center;
+    width: 100%;
     z-index: 2;
   }
+
+.dropdown-item {
+    color: white;
+}
+
+.dropdown-item:hover {
+    color: white !important;
+    background-color: #394867 !important;
+}
+
+.nav-link:hover {
+    color: white !important;
+    background-color: #394867 !important;
+    border-radius: 6px;
+}
+
+.search-button:hover {
+    color: white !important;
+    background-color: #394867 !important;
+    border-radius: 6px;
+    border-color: black;
+}
+
+.search-entry {
+    border-color: white;
+}
 
 /* Center table widget vertically and horizontally, fit to screen and etc. */
 /* top margin right margin bottom margin left margin */
@@ -76,7 +104,6 @@ tbody tr:hover{
 /* set footer fixed and expand in bottom. Adds gap between footer and main window. */
 footer {
     position: fixed;
-    left: 0;
     bottom: 0;
     width: 100%;
     background-color: black;
