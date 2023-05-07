@@ -1,11 +1,11 @@
 <!-- NAVBAR -->
-<nav class="navbar navbar-expand-lg bg-dark container-fluid" data-bs-theme="dark">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="{{ url_for('order_table') }}">OrderApp</a>
+<nav class="navbar fixed-top navbar-expand-lg bg-dark" data-bs-theme="dark">
+      <div class="container nav-items-width">
+        <a class="navbar-brand" href="{{ url_for('order_table') }}">Home</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                 aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <img src="static/img/menu.png" alt="error">
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
@@ -24,8 +24,9 @@
                        aria-expanded="false">Show Order</a>
                     <!-- adds order_name items from sql to drop-down menu -->
                     <ul class="dropdown-menu">
-                        {% for show_order_name in show_names: %}
-                        <li><a class="dropdown-item" href="#">{{ show_order_name }}</a></li>
+                        {% for order_name in show_names: %}
+                        <li><a class="dropdown-item" href="{{ url_for('filter_table', order_name=order_name) }}">{{
+                            order_name }}</a></li>
                         {% endfor %}
                     </ul>
                     <!-- ################### -->
@@ -35,19 +36,20 @@
                        aria-expanded="false">Sort by</a>
                     <ul class="dropdown-menu">
                         <!-- adds header_names from sql to drop-down menu and sort by header names -->
-                        {% for header_name in head %}
-                        <li><a class="dropdown-item" href="#">{{ header_name }}</a></li>
+                        {% for header_name in headers %}
+                        <li><a class="dropdown-item" href="{{ url_for('sort_table', sort_name=header_name) }}">{{
+                            header_name }}</a></li>
                         {% endfor %}
                         <!-- ################# -->
                     </ul>
                 </li>
             </ul>
-            <form class="d-flex" role="search">
-                <input class="search-entry form-control me-2" type="search" placeholder="Search for..."
-                       aria-label="Search">
+            <form class="d-flex" role="search" action="{{ url_for('search_table') }}" method="post">
+                <input class="search-entry form-control me-2" type="search" placeholder="Search for order name..."
+                       name="search">
                 <button class="search-button btn btn-outline-light" type="submit">Search</button>
             </form>
         </div>
+      </div>
 
-    </div>
 </nav>
