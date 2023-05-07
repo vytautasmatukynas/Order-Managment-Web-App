@@ -1,21 +1,27 @@
 # Order-Managment-Web-App-Demo
-My new project - order managment web app.
+My first web app.
 You can find desktop app here: https://github.com/vytautasmatukynas/Order-Managment-Desktop-App-Demo
 
-Fow now this app is read-only - under construction. There will be add/update/remove functions, login window, different accounts with different privileges and etc.
+Fow now this app is read-only - under construction.
  
+Fetches data from same postgreSQL server as desktop app:
 
-It gets data from same postgreSQL server as desktop app:
+![paveikslas](https://user-images.githubusercontent.com/51360361/236687746-37bf7d29-e420-468e-a232-51fe2cea75b1.png)
 
-![paveikslas](https://user-images.githubusercontent.com/51360361/235486688-8b8f845f-8a35-4aed-90f2-86f07082ea1e.png)
+Gets order names from SQL to drop-down menu. You can filter table by selecting order name:
 
-Gets order names from SQL to drop-down menu. You can filter table to show just selected order:
+![paveikslas](https://user-images.githubusercontent.com/51360361/236687818-616baf3e-1c37-4b1f-aa97-749285abd1f1.png)
 
-![paveikslas](https://user-images.githubusercontent.com/51360361/235486842-760c1b0e-87ff-4a93-9bb5-8cd20de136fe.png)
+![paveikslas](https://user-images.githubusercontent.com/51360361/236687847-ddd5ae8a-d6ea-45ad-bd01-dfe313a71819.png)
 
-Sort by column name:
+Gets header names from LIST to drop-down menu. You can sort table by column name by ASC order:
 
-![paveikslas](https://user-images.githubusercontent.com/51360361/235486968-46470f14-0532-4365-93cd-88bf2483dc0e.png)
+![paveikslas](https://user-images.githubusercontent.com/51360361/236687912-d51c0964-629e-45bf-bb50-aa7c37fd2b29.png)
 
+![paveikslas](https://user-images.githubusercontent.com/51360361/236687923-88eb198f-81a3-4e0e-9ca8-a68612b0ef60.png)
 
+Search:
 
+![paveikslas](https://user-images.githubusercontent.com/51360361/236688863-03acec86-7c65-4da9-a012-e6fd2d1186c6.png)
+
+![paveikslas](https://user-images.githubusercontent.com/51360361/236688881-66713349-3603-422f-9ff3-99ac74d3ad64.png)
