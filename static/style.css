@@ -1,15 +1,32 @@
+body {
+margin: auto;
+backgroud-color: black;
+}
+
 /* set navbar fixed and expand in bottom.
 Also when it collapses to hamburger it moves parallel to horizontal scrollbar.
 Adds some style to navbar and search entry */
 .navbar {
-    position: relative;
-    text-align: center;
-    width: 100%;
-    z-index: 2;
+    padding: 1rem 2rem 1rem 2rem;
+    z-index: 1000;
   }
 
+.nav-items-width {
+    max-width: 2058px;
+}
+
+.navbar-toggler {
+    border: 1px solid white  !important;
+}
+
+.navbar-toggler:hover{
+    border: 1px solid white !important;
+    color: white !important;
+    background-color: #394867 !important;
+}
+
 .dropdown-item {
-    color: white;
+    color: #f8f9fa;
 }
 
 .dropdown-item:hover {
@@ -23,6 +40,7 @@ Adds some style to navbar and search entry */
     border-radius: 6px;
 }
 
+/* Search entry label style */
 .search-button:hover {
     color: white !important;
     background-color: #394867 !important;
@@ -31,19 +49,24 @@ Adds some style to navbar and search entry */
 }
 
 .search-entry {
-    border-color: white;
+    color: white;
+}
+
+.search-entry:focus {
+    color: white;
 }
 
 /* Center table widget vertically and horizontally, fit to screen and etc. */
 /* top margin right margin bottom margin left margin */
 .child {
     position: absolute;
-    top: 5%;
-    bottom: 5%;
+    top: 50px;
+    bottom: 20px;
     left: 5%;
     right: 5%;
-    margin: 50px 0px 50px 0;
+    margin: 50px auto;
     border: 1px solid gray;
+    max-width: 1960px;
 }
 
 .table {
@@ -58,9 +81,11 @@ thead th {
     position: -webkit-sticky;
     position: sticky;
     top: 0px;
-    z-index: 1;
     text-align: center;
     white-space: nowrap;
+    z-index: 1;
+    background-color: #212529 !important;
+    color: #f8f9fa !important;
 }
 
 /* expand comments column to max and some min-width */
@@ -70,6 +95,7 @@ thead th {
 }
 
 /* align table number column, to be in center */
+
 tbody th{
     vertical-align: middle;
     text-align: center;
@@ -88,28 +114,31 @@ tbody td{
     text-align: left;
 }
 
-/* change color on hover. !important overwrites all previuos styling for tag/class or what ever */
-tbody tr:hover{
-    color: white !important;
-    background-color: #394867 !important;
-}
-
-/* for cell hover
-tbody tr:hover{
+/* change color on hover. !important overwrites all previuos styling for tag/class or whatever.
+td hovers cell. */
+/*
+tbody td:hover{
     color: white !important;
     background-color: #394867 !important;
 }
 */
 
+/* tr hovers all row. */
+tbody tr:hover{
+    color: white !important;
+    background-color: #394867 !important;
+}
+
+
 /* set footer fixed and expand in bottom. Adds gap between footer and main window. */
 footer {
     position: fixed;
     bottom: 0;
+    left: 0;
     width: 100%;
-    background-color: black;
+    background-color: #212529;
     color: white;
     text-align: center;
     height: 40px;
-    z-index: 2;
+    z-index: 1000;
 }
-
