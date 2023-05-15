@@ -2,8 +2,8 @@
 My first web app.
 You can find desktop app here: https://github.com/vytautasmatukynas/Order-Managment-Desktop-App-Demo
 
-Fow now this app is read-only - under construction.
- 
+Fow now this app is read-only.
+
 Fetches data from same postgreSQL server as desktop app:
 
 ![paveikslas](https://user-images.githubusercontent.com/51360361/236687746-37bf7d29-e420-468e-a232-51fe2cea75b1.png)
