@@ -139,7 +139,7 @@ def sort_table(sort_name):
     return render_template('index.html', headers=headers, data=data, year=year, show_names=show_names)
 
 
-@app.route('/search/', methods=['POST'])
+@app.route('/search', methods=['POST'])
 def search_table():
     """ SEARCH page TABLE """
     search_form = request.form['search']
