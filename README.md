@@ -1,4 +1,4 @@
-# Order-Managment-Web-App-Demo
+# Order-Managment-Web-App
 My first web app.
 You can find desktop app here: https://github.com/vytautasmatukynas/Order-Managment-Desktop-App-Demo
 
