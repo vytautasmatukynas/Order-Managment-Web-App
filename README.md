@@ -1,5 +1,7 @@
 # Order-Managment-Web-App
-My first web app. COde files will be later.
+My first web app. There will be code files when i finish this project.
+Basiclly this my Flask learning project.
+
 You can find desktop app here: https://github.com/vytautasmatukynas/Order-Managment-Desktop-App-Demo
 
 Fow now this app is read-only.
