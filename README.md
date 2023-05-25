@@ -1,5 +1,5 @@
 # Order-Managment-Web-App
-My first web app. There will be code files when i finish this project.
+There will be code files when i finish this project.
 
 You can find desktop app here: https://github.com/vytautasmatukynas/Order-Managment-Desktop-App-Demo
 
