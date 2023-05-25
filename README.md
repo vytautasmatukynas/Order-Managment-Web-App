@@ -1,5 +1,5 @@
 # Order-Managment-Web-App
-My first web app.
+My first web app. COde files will be later.
 You can find desktop app here: https://github.com/vytautasmatukynas/Order-Managment-Desktop-App-Demo
 
 Fow now this app is read-only.
