@@ -1,9 +1,7 @@
 # Order-Managment-Web-App
-There will be code files when i finish this project.
+This app is under construction. Styling is basic because i am learning back-end with Flask.
 
 You can find desktop app here: https://github.com/vytautasmatukynas/Order-Managment-Desktop-App-Demo
-
-Fow now this app is read-only.
 
 Fetches data from same PostgreSQL server as desktop app:
 
@@ -26,3 +24,19 @@ Search:
 ![paveikslas](https://user-images.githubusercontent.com/51360361/236688863-03acec86-7c65-4da9-a012-e6fd2d1186c6.png)
 
 ![paveikslas](https://user-images.githubusercontent.com/51360361/236688881-66713349-3603-422f-9ff3-99ac74d3ad64.png)
+
+Add new record. This is just basic form elements label/input/calendar/area-field/button. "Updated" cell fills auto with date that record was changed:
+
+![paveikslas](https://github.com/vytautasmatukynas/Order-Managment-Web-App/assets/51360361/693f2100-a815-4098-90cc-77458a4c3295)
+
+![paveikslas](https://github.com/vytautasmatukynas/Order-Managment-Web-App/assets/51360361/f9311369-999b-492b-92ea-6b095c83a773)
+
+![paveikslas](https://github.com/vytautasmatukynas/Order-Managment-Web-App/assets/51360361/9c875f38-bf5f-4d0c-8062-47ab1974abc2)
+
+![paveikslas](https://github.com/vytautasmatukynas/Order-Managment-Web-App/assets/51360361/5ee6047a-1977-47c8-a184-4af9b1cc6d57)
+
+![paveikslas](https://github.com/vytautasmatukynas/Order-Managment-Web-App/assets/51360361/a73dc40e-11ce-4c9e-aa75-5e638e588827)
+
+![paveikslas](https://github.com/vytautasmatukynas/Order-Managment-Web-App/assets/51360361/56229c29-69d7-4251-9490-2e96375acf38)
+
+
