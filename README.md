@@ -1,5 +1,5 @@
 # Order-Managment-Web-App
-This app is under construction. Styling is basic because i am learning back-end with Flask. I didn;t use any Blueprints or Flask project structure, so it's a bit messy.
+This app is under construction. Styling is basic because i am learning back-end with Flask. I didn't use any Blueprints or Flask project structure for this small app, so it's a bit messy.
 
 You can find desktop app here: https://github.com/vytautasmatukynas/Order-Managment-Desktop-App-Demo
 
