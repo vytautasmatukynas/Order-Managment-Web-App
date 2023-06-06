@@ -25,7 +25,7 @@ Search:
 -
 ![paveikslas](https://user-images.githubusercontent.com/51360361/236688881-66713349-3603-422f-9ff3-99ac74d3ad64.png)
 
-Add new record. This is just basic form elements label/input/calendar/area-field/button:
+Add new record. This is just basic form with elements label/input/calendar/area-field/button:
 
 ![paveikslas](https://github.com/vytautasmatukynas/Order-Managment-Web-App/assets/51360361/693f2100-a815-4098-90cc-77458a4c3295)
 -
