@@ -1,7 +1,7 @@
 # Order-Managment-Web-App
 This app is under construction. 
 
-Small Flask app.
+Small Flask app with some basic CSS style.
 
 You can find desktop app here: https://github.com/vytautasmatukynas/Order-Managment-Desktop-App-Demo
 
