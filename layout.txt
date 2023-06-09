@@ -1,0 +1,30 @@
+/project_name ---|
+                 |--- /static
+                 |          |
+                 |          |--- /css ---|
+                 |          |            |
+                 |          |            style.css
+                 |          |
+                 |          |--- /img ---|
+                 |                       |
+                 |                       arrow_back.png
+                 |                       menu.png
+                 |
+                 |--- /templates ---|
+                 |                  |
+                 |                  add.html
+                 |                  base_add.html
+                 |                  footer.html
+                 |                  header.html
+                 |                  index.html
+                 |                  navbar_add.html
+                 |                  navbar.html
+                 |                  table.html
+                 |
+                 .gitignore
+                 app.py
+                 config.py
+                 layout.txt
+                 requirements.txt
+                 views.py
+
