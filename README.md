@@ -1,6 +1,6 @@
 # Order-Managment-Web-App
 
-My first desktop app with Flask.
+My first web app with Flask.
 
 This app is under construction. 
 
