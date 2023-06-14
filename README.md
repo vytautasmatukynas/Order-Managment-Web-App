@@ -1,4 +1,7 @@
 # Order-Managment-Web-App
+
+My first desktop app with Flask.
+
 This app is under construction. 
 
 Small Flask app with some basic CSS and Bootstrap style.
