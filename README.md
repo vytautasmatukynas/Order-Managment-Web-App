@@ -6,7 +6,7 @@ Small Flask app with some basic CSS and Bootstrap style.
 
 You can find desktop app here: https://github.com/vytautasmatukynas/Order-Managment-Desktop-App-Demo
 
-Fetches data from same PostgreSQL server as desktop app:
+Fetches data from SQL and fills table:
 
 ![paveikslas](https://user-images.githubusercontent.com/51360361/236687746-37bf7d29-e420-468e-a232-51fe2cea75b1.png)
 
