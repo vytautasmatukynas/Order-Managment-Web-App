@@ -1,0 +1,231 @@
+/* NAVBAR STYLE */
+/* set navbar fixed and expand in bottom.
+Also when it collapses to hamburger it moves parallel to horizontal scrollbar.
+Adds some style to navbar and search entry */
+/* top padding right padding bottom padding left padding: "padding: 1rem 2rem 1rem 2rem;" */
+.navbar {
+    padding: 1rem 2rem 1rem 2rem;
+    z-index: 1000;
+  }
+
+.nav-items-width {
+    max-width: 2058px;
+}
+
+.dropdown-item {
+    color: #f8f9fa;
+}
+
+.dropdown-item:hover {
+    color: white !important;
+    background-color: #394867 !important;
+    border: 1px solid white;
+    margin: -1px;
+}
+
+.nav-link:hover {
+    color: white !important;
+    background-color: #394867 !important;
+    border-radius: 6px;
+    border: 1px solid white;
+    margin: -1px;
+}
+
+/* Search entry and button style */
+.search-button:hover {
+    color: white !important;
+    background-color: #394867 !important;
+    border-radius: 6px;
+    border-color: black;
+    border: 1px solid white;
+}
+
+.search-button {
+    border: 1px solid white;
+}
+
+.search-entry {
+    color: white;
+}
+
+.search-entry:focus {
+    color: white;
+}
+
+
+/* FOOTER STYLE */
+/* set footer fixed and expand in bottom. Adds gap between footer and main window. */
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #212529;
+    color: white;
+    text-align: center;
+    height: 40px;
+    z-index: 1000;
+}
+
+
+/* TABLE STYLE */
+/* Center table widget vertically and horizontally, fit to screen and etc. */
+/* or top/bottom and left/right: "margin: 50px auto;"*/
+.child {
+    position: absolute;
+    top: 50px;
+    bottom: 20px;
+    left: 5%;
+    right: 5%;
+    margin: 50px auto;
+    border: 1px solid gray;
+    max-width: 1960px;
+}
+
+.table {
+    display: inline-block;
+    overflow: auto;
+    width: 100%;
+    height: 100%;
+}
+
+/* set header to stick in one place and some other styling */
+thead th {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 1;
+    background-color: #212529 !important;
+    color: #f8f9fa !important;
+}
+
+/* expand comments column to max and add min-width */
+.COMMENTS-header-name {
+    width: 100%;
+    min-width: 400px;
+}
+
+/* align table "number" column to align center */
+tbody th{
+    vertical-align: middle;
+    text-align: center;
+    background-color: #212529 !important;
+    color: #f8f9fa !important;
+}
+
+/* all columns alighment */
+tbody td{
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+/* comments column aligment */
+.comments-row {
+    white-space: pre-wrap;
+    text-align: left;
+}
+
+/* change color on hover. !important overwrites all previuos styling for tag/class or whatever.
+td hovers cell. */
+/*tbody td:hover{
+    color: white !important;
+    background-color: #394867 !important;
+}*/
+
+/* tr hovers all row. */
+.table-row:hover{
+    color: white !important;
+    background-color: #394867 !important;
+}
+
+/* DELETE RECORD style */
+.delete-btn {
+    display: block;
+    width: 100%;
+    text-align: center;
+    background-color: #212529;
+    color: white;
+  }
+
+.cancel-btn {
+    display: block;
+    width: 100%;
+    text-align: center;
+    background-color: #212529;
+    color: white;
+    margin-top: 2px;
+}
+
+.delete-btn:hover {
+    display: block;
+    width: 100%;
+    text-align: center;
+    background-color: #394867;
+    color: white;
+    border: 1px solid white;
+  }
+
+.cancel-btn:hover {
+    display: block;
+    width: 100%;
+    text-align: center;
+    background-color: #394867;
+    color: white;
+    border: 1px solid white;
+    margin-top: 2px;
+}
+
+.card{
+    display: block;
+    width: 20rem;
+    text-align: center;
+    border: 1px solid #212529;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 17%;
+}
+
+/* UPDATE RECORD style */
+.update-btn {
+    display: block;
+    width: 100%;
+    text-align: center;
+    background-color: #212529;
+    color: white;
+}
+
+.update-btn:hover {
+    display: block;
+    width: 100%;
+    text-align: center;
+    background-color: #394867;
+    color: white;
+    border: 1px solid white;
+}
+
+/* ADD NEW RECORD STYLE */
+/* center add new template. Same as table */
+.child-add-new {
+    position: absolute;
+    top: 50px;
+    bottom: 20px;
+    left: 5%;
+    right: 5%;
+    margin: 50px auto;
+    max-width: 1024px;
+}
+
+.button-add-new:hover {
+    color: white !important;
+    background-color: #394867 !important;
+    border-radius: 6px;
+    border-color: black;
+}
+
+/* FLASH ALERT style */
+.alert {
+    margin-bottom: 0px;
+}
