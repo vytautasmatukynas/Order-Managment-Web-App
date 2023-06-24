@@ -6,7 +6,7 @@ Small Flask app with some basic CSS and Bootstrap style.
 
 You can find desktop app here: https://github.com/vytautasmatukynas/Order-Managment-Desktop-App-Demo
 
-Fetches data from SQL and fills table with data. Create "Delete" and "Update" buttons for every row:
+Fetches data from SQL and fills table with data. Creates "Delete" and "Update" buttons for every row:
 
 ![paveikslas](https://github.com/vytautasmatukynas/Order-Managment-Web-App/assets/51360361/367116b1-7451-4e18-b3dc-45b1d220d268)
 
