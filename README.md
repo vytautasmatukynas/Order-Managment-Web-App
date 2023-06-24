@@ -2,8 +2,6 @@
 
 My first web app with Flask.
 
-This app is under construction. 
-
 Small Flask app with some basic CSS and Bootstrap style.
 
 You can find desktop app here: https://github.com/vytautasmatukynas/Order-Managment-Desktop-App-Demo
