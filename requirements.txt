@@ -1,16 +1,4 @@
 Flask==1.0.2
-Flask-Bcrypt==0.7.1
-Flask-Dance==0.14.0
 Flask-DebugToolbar==0.10.1
-Flask-Login==0.4.1
-Flask-Mail==0.9.1
-Flask-Migrate==2.1.1
-Flask-OAuth==0.12
-Flask-OAuthlib==0.9.4
-Flask-SQLAlchemy==2.3.2
-Flask-WTF==0.14.2
 Jinja2==2.10
-oauth2==1.9.0.post1
-oauthlib==2.0.7
-Werkzeug==0.14.1
-WTForms==2.1
+
