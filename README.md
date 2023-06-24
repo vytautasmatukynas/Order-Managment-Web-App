@@ -40,6 +40,35 @@ Add new record. This is just basic form with elements label/input/calendar/area-
 -
 ![paveikslas](https://github.com/vytautasmatukynas/Order-Managment-Web-App/assets/51360361/cc6ad937-b4c6-4f12-a26b-0cdad85e7963)
 
+Update record. This is same form like "Add new record", when you click "Update" button it gets rowid and fills form with data from SQL:
+
+![paveikslas](https://github.com/vytautasmatukynas/Order-Managment-Web-App/assets/51360361/6ad3a342-7483-4400-9c4a-22f9bfb40ecc)
+-
+![paveikslas](https://github.com/vytautasmatukynas/Order-Managment-Web-App/assets/51360361/18a1b6d4-5df5-4917-9b26-0b808b49229c)
+-
+![paveikslas](https://github.com/vytautasmatukynas/Order-Managment-Web-App/assets/51360361/f175ff3c-a382-4978-b48b-25d2fd91a351)
+-
+![paveikslas](https://github.com/vytautasmatukynas/Order-Managment-Web-App/assets/51360361/c193b71d-2160-4afb-b94f-80e42594fd9f)
+
+Delete record. Gets rowid when you click "Delete" button and pops template with "Card". When you click "Delete" in "Card" it deletes row and pops flash message with info that row was deleted:
+
+![paveikslas](https://github.com/vytautasmatukynas/Order-Managment-Web-App/assets/51360361/a67ed9ed-a5e9-41cf-9d66-4c3ff6413e66)
+-
+![paveikslas](https://github.com/vytautasmatukynas/Order-Managment-Web-App/assets/51360361/780f50ae-153c-4626-86be-08f2d18f0a92)
+-
+![paveikslas](https://github.com/vytautasmatukynas/Order-Managment-Web-App/assets/51360361/1e7c1950-f74b-42e0-a0c2-06c8cc39a448)
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
