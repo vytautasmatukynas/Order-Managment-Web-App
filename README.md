@@ -2,7 +2,7 @@
 
 My first web app with Flask.
 
-Small Flask app with some basic CSS and Bootstrap style.
+Small Flask app with few views and some basic CSS/Bootstrap style.
 
 You can find desktop app here: https://github.com/vytautasmatukynas/Order-Managment-Desktop-App-Demo
 
