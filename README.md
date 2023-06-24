@@ -1,4 +1,4 @@
-# Order-Managment-Web-App
+# Order-Managment-Web-App-Demo
 
 My first web app with Flask.
 
