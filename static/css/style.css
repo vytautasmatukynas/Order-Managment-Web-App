@@ -237,3 +237,10 @@ td hovers cell. */
     background-color: white;
     border: black 1px solid;
 }
+
+
+/* ERROR handler */
+.error {
+    padding-top: 50px;
+    text-align: center;
+}
