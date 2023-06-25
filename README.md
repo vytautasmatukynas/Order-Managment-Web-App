@@ -52,22 +52,11 @@ Update record. This is same form like "Add new record", when you click "Update" 
 
 Delete record. Gets rowid when you click "Delete" button and pops template with "Card". When you click "Delete" in "Card" it deletes row and pops flash message with info that row was deleted:
 
-![paveikslas](https://github.com/vytautasmatukynas/Order-Managment-Web-App/assets/51360361/a67ed9ed-a5e9-41cf-9d66-4c3ff6413e66)
+![paveikslas](https://github.com/vytautasmatukynas/Order-Managment-Web-App/assets/51360361/f4fe38a5-b5ef-433a-a146-52d386ca6fac)
 -
-![paveikslas](https://github.com/vytautasmatukynas/Order-Managment-Web-App/assets/51360361/780f50ae-153c-4626-86be-08f2d18f0a92)
+![paveikslas](https://github.com/vytautasmatukynas/Order-Managment-Web-App/assets/51360361/14059b51-2a32-4385-bfc3-dd7e2431d4bc)
 -
-![paveikslas](https://github.com/vytautasmatukynas/Order-Managment-Web-App/assets/51360361/1e7c1950-f74b-42e0-a0c2-06c8cc39a448)
-
-
-
-
-
-
-
-
-
-
-
+![paveikslas](https://github.com/vytautasmatukynas/Order-Managment-Web-App/assets/51360361/daa87065-71b6-4b8d-87cf-15bcb3e7d9f8)
 
 
 
