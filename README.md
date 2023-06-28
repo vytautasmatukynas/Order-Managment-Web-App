@@ -4,7 +4,7 @@ My first web app with Flask.
 
 Small Flask app with few views and some basic CSS/Bootstrap style.
 
-You can find desktop app here: https://github.com/vytautasmatukynas/Order-Managment-Desktop-App-Demo
+You can find desktop app here: https://github.com/vytautasmatukynas/Order-Managment-Desktop-App
 
 You can find REST API: https://github.com/vytautasmatukynas/Order-Managment-API-Flask
 
