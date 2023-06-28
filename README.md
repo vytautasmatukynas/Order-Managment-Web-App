@@ -30,7 +30,7 @@ Search:
 -
 ![paveikslas](https://github.com/vytautasmatukynas/Order-Managment-Web-App/assets/51360361/284ff588-a3f6-4ca7-94fd-4f22b259e085)
 
-Add new record. This is just basic form with elements label/input/calendar/area-field/button:
+Add new record. This is just basic form with label/input/calendar/combobox/area-field/button:
 
 ![paveikslas](https://github.com/vytautasmatukynas/Order-Managment-Web-App/assets/51360361/af246852-0618-4949-a076-f0cdb0920893)
 -
