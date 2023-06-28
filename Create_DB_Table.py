@@ -31,33 +31,10 @@ cur.execute(("""CREATE TABLE IF NOT EXISTS orders (
             order_term TEXT,
             status TEXT,
             comments TEXT,
-            order_folder TEXT,
-            order_file TEXT,
-            update_date TEXT,
-            filename TEXT,
-            photo BYTEA,
-            filetype TEXT,
-            filedir TEXT
+            update_date TEXT
             )
             """))
 
 conn.commit()
 
-conn.close()
-
-# ComboBox DB Table
-conn = psycopg2.connect(**params)
-
-cur = conn.cursor()
-
-cur.execute(("""CREATE TABLE IF NOT EXISTS combo_orders (
-            ID INT GENERATED ALWAYS AS IDENTITY,
-            uzsakymai_company TEXT,
-            uzsakymai_client TEXT,
-            uzsakymai_phone TEXT,
-            uzsakymai_name TEXT
-            )
-            """))
-
-conn.commit()
 conn.close()
