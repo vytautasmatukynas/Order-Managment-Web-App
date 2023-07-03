@@ -1,0 +1,16 @@
+{% extends 'base/form_base.html' %}
+
+{% block content %}
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title">Delete</h5>
+      <p class="card-text">Delete row_id:{{ row_id }}?</p>
+      <form class="d-flex" action="{{ url_for('edit_table.delete_order', row_id=row_id ) }}" method="POST">
+        <td><button type="submit" class="btn btn-secondary delete-btn">Delete</button></td>
+      </form>
+      <form class="d-flex" action="{{ url_for('main_table.order_table') }}">
+        <td><button type="submit" class="btn btn-secondary cancel-btn">Cancel</button></td>
+      </form>
+    </div>
+  </div>  
+{% endblock %}

@@ -1,0 +1,75 @@
+{% extends "base/table_base.html" %}
+
+{% block content %}
+
+<!-- TABLE -->
+<div class="parent">
+    <div class="child">
+        <!-- flash message POP-UP after deleting. Look for what meassage in "delete_order" func -->
+        {% for message in get_flashed_messages() %}
+            <div class="alert alert-warning alert-dismissible fade show" role="alert">
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                {{ message }}
+            </div>
+        {% endfor %}
+        <!-- ##################### -->
+        <!-- Bootstrap class 'table table-striped' adds stripes to table rows.
+        'table-bordered border-white' adds borders to table-->
+        <table class="table table-sm table-bordered border-dark-subtle">
+            <thead class="thead">
+            <tr>
+                <!-- Create headers for table. -->
+                <th class="column-headers" scope="col"></th>
+                {% for header_name in headers %}
+                    <th scope="col" class="headers {{ header_name }}-header-name">{{ header_name }}</th>
+                {% endfor %}
+                <!-- ##################### -->
+            </tr>
+            </thead>
+
+            <!-- Create table rows with data from SQL by looping through data list -->
+            <tbody class="tbody">
+            <!-- fetch data -->
+            {% for rows_data in data %}
+            <tr class="table-row">
+                <!-- Adds row number -->
+                <th scope="row">{{ rows_data[0] }}</th>
+
+                <!-- Adds row data, except 'id' -->
+                {% for row in rows_data[1][1:7] %}
+                    <td> {{ row }}</td>
+                {% endfor %}
+
+                <!-- add comments row-->
+                {% for row in rows_data[1][7:8] %}
+                    <td class="comments-row"> {{ row }}</td>
+                {% endfor %}
+
+                <!-- Adds updated row -->
+                {% for row in rows_data[1][8:9] %}
+                    <td> {{ row }}</td>
+                {% endfor %}
+
+                <!-- DELETE button -->
+                {% for row_id in rows_data[1][0:1] %}
+                <form class="d-flex" action="{{ url_for('edit_table.delete_order', row_id=row_id ) }}" method="GET">
+                    <td><button type="submit" class="btn btn-secondary delete-btn">Delete</button></button></td>
+                </form>
+                <!-- ############################## -->
+                <!-- UPDATE button -->
+                <form class="d-flex" action="{{ url_for('edit_table.update_order', row_id=row_id ) }}" method="GET">
+                    <td><button type="submit" class="btn btn-secondary update-btn">Update</button></td>
+                </form>
+                {% endfor %}
+                <!-- ############################## -->
+            </tr>
+            {% endfor %}
+            <!-- ##################### -->
+            </tbody>
+        </table>
+    </div>
+</div>
+
+{% endblock %}
+
+
